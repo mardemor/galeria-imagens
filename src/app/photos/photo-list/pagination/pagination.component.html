@@ -1,0 +1,10 @@
+<section class="pagination-container">
+    <div class="pagination-subcontainer">
+        <button 
+            class="aplication-button" 
+            [ngClass]="{ 'aplication-button-active': isActive }"
+            *ngFor="let page of pageNumbers" 
+            (click)="pageClick($event.target)" 
+            value="{{page}}">{{page}}</button>
+    </div>    
+</section>

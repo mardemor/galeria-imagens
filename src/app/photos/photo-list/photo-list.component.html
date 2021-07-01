@@ -1,0 +1,6 @@
+<section class="photos-container">
+    <app-photo-thumb *ngFor="let photo of currentPage" [imageId]="photo.id" [url]="photo.url" [description]="photo.description">
+    </app-photo-thumb>
+</section>
+<app-pagination [pageCount]="pageCount" (emissor)="changePage($event)"></app-pagination>
+

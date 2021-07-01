@@ -1,0 +1,12 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.pagination-subcontainer {
+    display: grid;
+    column-gap: 16px;
+    grid-auto-flow: column;
+}

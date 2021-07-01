@@ -1,0 +1,19 @@
+.photos-container {
+    height: calc(100vh - 175px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around; 
+    padding: 0 32px;   
+}
+
+@media(max-width: 500px) {
+    .photos-container {
+        height: auto;
+        min-height: calc(100vh - 175px);
+        display: grid;
+        grid-auto-flow: row;
+        row-gap: 32px;
+        margin: 32px 0;  
+    }
+}

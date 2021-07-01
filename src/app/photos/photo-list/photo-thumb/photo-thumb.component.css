@@ -1,0 +1,17 @@
+.img-thumbnail {
+    width: 150px;
+    height: auto;
+}
+
+.img-thumbnail-wrapper {
+    width: fit-content;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.img-thumbnail-wrapper:hover {
+    box-shadow: 1px 1px 15px 1px rgba(190, 190, 120, 0.9);
+    transform: scale(1.03);
+}

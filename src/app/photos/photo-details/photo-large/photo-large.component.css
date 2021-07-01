@@ -1,0 +1,16 @@
+.img-large {
+    width: auto;
+    height: auto;
+}
+
+.img-large-wrapper {
+    width: fit-content;
+    margin-top: 20px;
+}
+
+@media(max-width: 500px) {
+    .img-large {
+        width: 90vw;
+        height: auto;
+    }
+}

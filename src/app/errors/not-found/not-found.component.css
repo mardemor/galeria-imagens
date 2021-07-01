@@ -1,0 +1,25 @@
+.error-container {
+    height: calc(100vh - 125px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: gray; 
+    padding: 0 30px;  
+}
+
+@media(max-width: 500px) {
+    .error-container {
+        height: calc(100vh - 175px);
+    }
+}
+
+.error-text {
+    line-height: 30px;
+    text-align: center;
+}
+
+.error-text h2 {
+    font-size: 32px;
+    line-height: 64px;
+}
